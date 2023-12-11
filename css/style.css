@@ -1,3 +1,14 @@
+:root {
+  --Midnight-Green: #014e56;
+  --Light-Coral: #f67e7e;
+  --White: #fff;
+  --Rapture-Blue: #79c8c7;
+  --Police-Blue: #2c6269;
+  --Deep-Jungle-Green: #004047;
+  --Sacramento-State-Green: #012f34;
+  --Dark-Green: #002529;
+}
+
 /* FONT-FACE */
 @font-face {
   font-family: "Livvic";
