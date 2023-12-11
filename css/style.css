@@ -84,10 +84,11 @@ body {
   font-size: 18px;
   font-weight: 600;
   line-height: 28px;
-  color: #222;
+  letter-spacing: normal;
+  color: #fff;
   padding: 0;
   margin: 0;
-  background-color: #fff;
+  background-color: var(--Midnight-Green);
 }
 
 img {
