@@ -96,6 +96,59 @@ img {
   height: auto;
 }
 
+/* BUTTON */
+.button {
+  width: 153px;
+  height: 48px;
+  padding: 9px 33px 11px 32px;
+  color: #fff;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 24px;
+  border: 2px solid #fff;
+  background-color: transparent; 
+}
+
+.light-button-primary {
+  background-color: var(--Sacramento-State-Green);
+}
+.light-button-primary:hover {
+  color: var(--Dark-Green);
+  background-color: #fff;
+}
+.light-button-primary:disabled {
+  opacity: 0.25;
+}
+
+.dark-button-primary {
+  color: var(--Midnight-Green);
+  border-color: var(--Midnight-Green);
+  background-color: #fff;
+}
+.dark-button-primary:hover {
+  color: #fff;
+  background-color: var(--Midnight-Green);
+  border-color: transparent;
+}
+.dark-button-primary:disabled {
+  opacity: 0.25;
+}
+
+.light-button-secondary {
+  color: var(--Dark-Green);
+  background-color: #fff;
+  border-color: transparent;
+}
+.light-button-secondary:hover {
+  color: var(--Dark-Green);
+  background-color: var(--Rapture-Blue);
+  border-color: transparent;
+}
+.light-button-secondary:disabled {
+  border-color: 2px solid #fff;
+  background-color: #fff;
+  opacity: 0.25;
+}
 .visually-hidden {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
