@@ -293,6 +293,61 @@ img {
   flex-grow: 1;
 }
 
+/* FEATURES */
+.features {
+  padding-top: 140px;
+  padding-bottom: 140px;
+  background-color: var(--Sacramento-State-Green);
+  background-image: url("../img/feaure-bg-img.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% + 760px) 100%;
+}
+.feature-header__wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.feature-header {
+  width: 445px;
+  margin: 0;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: bold;
+}
+.feature-wrapper-divider {
+  margin-bottom: 54px;
+}
+.features-list {
+  max-width: 540px;
+  margin: 0;
+  list-style: none;
+}
+.feature-item {
+  display: flex;
+}
+.feature-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+.feature-item__img {
+  width: 72px;
+  height: 72px;
+  margin-right: 23px;
+}
+.feature-item__info {
+  width: 445px;
+}
+.feature-item__title {
+  margin: 0;
+  margin-bottom: 16px;
+  color: var(--Light-Coral);
+  font-weight: bold;
+}
+.feature-item__text {
+  margin: 0;
+  font-size: 15px;
+  line-height: 25px;
+}
+
 
 
 /* RETINA */
@@ -305,5 +360,8 @@ only screen and (min-resolution: 2dppx) {
   .site-header__inner {
     background: url("../img/hero-bg-img@2x.png"),
    url("../img/hero-bg-img2@2x.png");
+  }
+  .features {
+    background-image: url("../img/feaure-bg-img@2x.png");
   }
 }
