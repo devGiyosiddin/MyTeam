@@ -197,7 +197,7 @@ img {
   padding-bottom: 255px;
 
   background: url("../img/hero-bg-img.png"),
-   url("../img/hero-bg-img2@2x.png");
+   url("../img/hero-bg-img2.png");
   background-repeat: no-repeat;
   background-size: 200px 200px,  358px 200px;
   background-position:  calc(50% - 770px) 265px, calc(50% + 375px) 120%;
@@ -300,4 +300,8 @@ only screen and (min--moz-device-pixel-ratio: 2),
 only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (min-device-pixel-ratio: 2),
 only screen and (min-resolution: 192dpi),
-only screen and (min-resolution: 2dppx) {}
+  .site-header__inner {
+    background: url("../img/hero-bg-img@2x.png"),
+   url("../img/hero-bg-img2@2x.png");
+  }
+}
