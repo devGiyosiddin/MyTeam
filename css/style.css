@@ -171,6 +171,25 @@ img {
   margin-right: auto;
 }
 
+/* DIVIDER */
+.blue-divider {
+  margin: 0;
+  margin-bottom: 79px;
+  width: 50px;
+  height: 4px;
+  flex-shrink: 0;
+  background-color: var(--Rapture-Blue);
+}
+
+.red-divider {
+  margin: 0;
+  margin-bottom: 79px;
+  width: 50px;
+  height: 4px;
+  flex-shrink: 0;
+  background-color: var(--Light-Coral);
+}
+
 /* SITE-HEADER */
 .site-header__inner {
   width: 100%;
