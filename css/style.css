@@ -110,7 +110,7 @@ img {
 }
 
 .light-button-primary {
-  background-color: var(--Sacramento-State-Green);
+  background-color: transparent;
 }
 .light-button-primary:hover {
   color: var(--Dark-Green);
