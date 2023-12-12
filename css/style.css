@@ -174,7 +174,6 @@ img {
 /* DIVIDER */
 .blue-divider {
   margin: 0;
-  margin-bottom: 79px;
   width: 50px;
   height: 4px;
   flex-shrink: 0;
@@ -183,7 +182,6 @@ img {
 
 .red-divider {
   margin: 0;
-  margin-bottom: 79px;
   width: 50px;
   height: 4px;
   flex-shrink: 0;
@@ -278,6 +276,10 @@ img {
 }
 .hero-info__wrapper {
   width: 445px;
+}
+
+.hero-info__divider{
+  margin-bottom: 79px;
 }
 
 .hero-info__text {
