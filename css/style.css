@@ -172,9 +172,16 @@ img {
 }
 
 /* SITE-HEADER */
-.site-header {
+.site-header__inner {
+  width: 100%;
   padding-top: 73px;
   padding-bottom: 255px;
+
+  background: url("../img/hero-bg-img.png"),
+   url("../img/hero-bg-img2@2x.png");
+  background-repeat: no-repeat;
+  background-size: 200px 200px,  358px 200px;
+  background-position:  calc(50% - 770px) 265px, calc(50% + 375px) 120%;
 }
 
 .site-header_container {
