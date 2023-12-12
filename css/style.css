@@ -195,9 +195,17 @@ img {
   margin-right: 80px;
 }
 
+
 .site-header__logo-icon {
   width: 160px;
   height: 40px;
+  color: #fff;
+}
+.site-header__logo-icon:hover path {
+  color: var(--Light-Coral);
+}
+.site-header__logo-icon:active path {
+  opacity: 0.7;
 }
 
 .site-header__sitenav {
