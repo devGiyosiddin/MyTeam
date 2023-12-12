@@ -72,7 +72,7 @@ html {
 }
 
 *:focus {
-  outline: 3px dashed blue;
+  outline: 3px solid #fff;
   outline-offset: 3px;
 }
 
