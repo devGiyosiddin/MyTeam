@@ -136,7 +136,6 @@ img {
 
 .light-button-secondary {
   color: var(--Dark-Green);
-  background-color: #fff;
   border-color: transparent;
   background-color: #fff;
 }
@@ -357,8 +356,6 @@ img {
   background-image: url("../img/aarticles-bg-img1.png"), url("../img/articles-bg-img2.png");
   background-repeat: no-repeat;
   background-position: calc(50% - 655px) 0, calc(50% + 625px) 120%;
-}
-.article-container {
 }
 .article-header {
   width: 100%;
