@@ -416,6 +416,32 @@ img {
 }
 
 
+/* CTA */
+.cta {
+  background-color: var(--Light-Coral);
+  background-image: url("../img/cta-bg-img.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 663px) 77.5px;
+}
+.cta-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 76px 98px 95px 78px;
+}
+.cta-header {
+  margin: 0;
+  color: var(--Sacramento-State-Green);
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: bold;
+}
+
+.cta-button{
+  color: var(--Sacramento-State-Green);
+  border-color: var(--Sacramento-State-Green);
+}
+
 
 /* RETINA */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
