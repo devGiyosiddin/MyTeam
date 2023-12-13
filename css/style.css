@@ -138,6 +138,7 @@ img {
   color: var(--Dark-Green);
   background-color: #fff;
   border-color: transparent;
+  background-color: #fff;
 }
 .light-button-secondary:hover {
   color: var(--Dark-Green);
