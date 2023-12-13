@@ -429,4 +429,10 @@ only screen and (min-resolution: 2dppx) {
   .features {
     background-image: url("../img/feaure-bg-img@2x.png");
   }
+  .article-item {
+    background-image: url("../img/icon-quotes@2x.png");
+  }
+  .articles {
+    background-image: url("../img/aarticles-bg-img1@2x.png"), url("../img/articles-bg-img2@2x.png");
+  }
 }
