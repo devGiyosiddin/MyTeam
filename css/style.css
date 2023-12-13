@@ -127,7 +127,7 @@ img {
 }
 .dark-button-primary:hover {
   color: #fff;
-  background-color: var(--Midnight-Green);
+  background-color: var(--Sacramento-State-Green);
   border-color: transparent;
 }
 .dark-button-primary:disabled {
