@@ -463,4 +463,7 @@ only screen and (min-resolution: 2dppx) {
   .articles {
     background-image: url("../img/aarticles-bg-img1@2x.png"), url("../img/articles-bg-img2@2x.png");
   }
+  .cta {
+    background-image: url("../img/cta-bg-img.png");
+  }
 }
