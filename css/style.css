@@ -397,7 +397,7 @@ img {
 }
 .article-item__title {
   margin: 0;
-  font-weight: 700;
+  font-weight: bold;
   color: var(--Rapture-Blue);
 }
 .article-item__author {
