@@ -108,6 +108,9 @@ img {
   border: 2px solid #fff;
   background-color: transparent; 
 }
+.button:hover {
+  transition: 0.3s;
+}
 
 .light-button-primary {
   background-color: transparent;
@@ -129,6 +132,7 @@ img {
   color: #fff;
   background-color: var(--Sacramento-State-Green);
   border-color: transparent;
+  transition: 0.3s;
 }
 .dark-button-primary:disabled {
   opacity: 0.25;
@@ -143,6 +147,7 @@ img {
   color: var(--Dark-Green);
   background-color: var(--Rapture-Blue);
   border-color: transparent;
+  transition: 0.3s;
 }
 .light-button-secondary:disabled {
   border-color: 2px solid #fff;
@@ -226,6 +231,7 @@ img {
 }
 .site-header__logo-icon:hover path {
   color: var(--Light-Coral);
+  transition: 0.3s;
 }
 .site-header__logo-icon:active path {
   opacity: 0.7;
@@ -250,6 +256,7 @@ img {
 
 .site-header__sitenav-item:hover .site-header__sitenav-item__link {
   color: var(--Light-Coral);
+  transition: 0.3s;
 }
 .site-header__sitenav-item:active .site-header__sitenav-item__link {
   opacity: 0.08;
@@ -482,6 +489,7 @@ img {
 }
 .site-footer__socials-item__icon:hover path {
   color: var(--Light-Coral);
+  transition: 0.3s;
 }
 
 .site-footer__socials-text__text {
