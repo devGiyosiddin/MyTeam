@@ -501,6 +501,14 @@ img {
 }
 
 
+/* 2nd PAGE SITE-HEADER */
+.about-siteheader__inner {
+  padding-bottom: 120px;
+  background-image: url("../img/About-siteheader-bg-img.png");
+  background-position: calc(50% + 715px) 100%;
+}
+
+
 /* RETINA */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
@@ -523,5 +531,8 @@ only screen and (min-resolution: 2dppx) {
   }
   .cta {
     background-image: url("../img/cta-bg-img.png");
+  }
+  .about-siteheader__inner {
+    background-image: url("../img/About-siteheader-bg-img@2x.png");
   }
 }
