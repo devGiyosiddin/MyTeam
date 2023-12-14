@@ -509,6 +509,37 @@ img {
 }
 
 
+/* ABOUT-HERO */
+.about-hero {
+}
+.about-hero__container {
+  display: flex;
+}
+.about-hero__info-header {
+  height: 100%;
+  margin: 0;
+  margin-right: 30px;
+  width: 350px;
+  color: var(--White);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 100px;
+  margin-right: 30px;
+}
+.about-hero__info-wrapper {
+  width: 730px;
+}
+.about-hero__info-divider {
+  margin-bottom: 40px;
+}
+.about-hero__info-text {
+  margin: 0;
+  color: var(--White);
+}
+
+
+
+
 /* RETINA */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
