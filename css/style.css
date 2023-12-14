@@ -108,6 +108,7 @@ img {
   border: 2px solid #fff;
   background-color: transparent; 
 }
+
 .button:hover {
   transition: 0.3s;
 }
@@ -115,10 +116,12 @@ img {
 .light-button-primary {
   background-color: transparent;
 }
+
 .light-button-primary:hover {
   color: var(--Dark-Green);
   background-color: #fff;
 }
+
 .light-button-primary:disabled {
   opacity: 0.25;
 }
@@ -128,12 +131,14 @@ img {
   border-color: var(--Sacramento-State-Green);
   background-color: transparent;
 }
+
 .dark-button-primary:hover {
   color: #fff;
   background-color: var(--Sacramento-State-Green);
   border-color: transparent;
   transition: 0.3s;
 }
+
 .dark-button-primary:disabled {
   opacity: 0.25;
 }
@@ -143,12 +148,14 @@ img {
   border-color: transparent;
   background-color: #fff;
 }
+
 .light-button-secondary:hover {
   color: var(--Dark-Green);
   background-color: var(--Rapture-Blue);
   border-color: transparent;
   transition: 0.3s;
 }
+
 .light-button-secondary:disabled {
   border-color: 2px solid #fff;
   background-color: #fff;
@@ -167,7 +174,7 @@ img {
 }
 
 /* CONTAINER */
-.container{
+.container {
   width: 100%;
   max-width: 1150px;
   padding-left: 20px;
