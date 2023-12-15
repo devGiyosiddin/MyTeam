@@ -71,10 +71,10 @@ html {
   box-sizing: inherit;
 }
 
-*:focus {
+/* *:focus {
   outline: 1px solid #e8fa87;
   outline-offset: 3px;
-}
+} */
 
 body {
   height: 100%;
