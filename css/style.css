@@ -960,4 +960,7 @@ only screen and (min-resolution: 2dppx) {
   .clients {
     background-image: url("../img/Clients-bg-img@2x.png");
   }
+  .contact-us__site-header__inner {
+    background-image: url("../img/articles-bg-img2@2x.png"), url("../img/contact-us-bg-img2@2x.png");
+  }
 }
