@@ -788,6 +788,138 @@ img {
 }
 
 
+/* 3rd PAGE - CONTACT-US */
+.contact-us__site-header__inner {
+  padding-bottom: 128px;
+  background-image: url("../img/articles-bg-img2.png"), url("../img/contact-us-bg-img2.png");
+  background-size: 200px 200px, 200px 225px;
+  background-repeat: no-repeat;
+  background-position: calc(50% - 720px) 42%, calc(50% + 723.5px) 100%;
+}
+
+.contact-us__site-header_container {
+  margin-bottom: 120px;
+}
+
+.contact-info__item {
+  align-items: center;
+}
+.contact-info__item:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.contact-info__item-text {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: bold;
+
+}
+
+.contact {
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* INFO */
+.contact-info {
+  min-width: 540px;
+  margin-right: 32px;
+}
+
+.contact-info__header {
+  margin: 0 0 16px;
+  font-size: 64px;
+  font-weight: bold;
+  line-height: 100px;
+}
+
+.contact-info__text {
+  margin: 0 0 32px;
+  color: var(--Light-Coral);
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 48px;
+}
+
+.contact-forms {
+}
+
+.contact-form__input {
+  width: 540px;
+  padding-left: 14px;
+  padding-bottom: 16px;
+  color: var(--White);
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 600;
+  letter-spacing: -0.115px;
+  border: 0;
+  border-bottom: 1px solid #fff;
+  background-color: transparent;
+}
+.contact-form__input:not(:last-child) {
+  margin-bottom: 24px;
+}
+
+
+.contact-form__name-input {
+}
+
+.contact-form__email-input {
+  position: relative;
+}
+
+
+.contact-form__companyName-input {
+}
+
+.contact-form__title-input {
+}
+
+.contact-form__message-input {
+  margin-bottom: 24px;
+  min-height: 83px;
+  max-height: 200px;
+  resize: vertical;
+  overflow: auto;
+}
+
+.error-msg {
+  display: none;
+}
+
+.contact-form__email-input:not(:focus):not(:placeholder-shown):invalid {
+  color: var(--Light-Coral);
+  opacity: 0.6;
+}
+.contact-form__email-input:not(:focus):not(:placeholder-shown):invalid ~ .error-msg {
+  display: block;
+  margin-top: -16px;
+  margin-bottom: 17px;
+  color: var(--Light-Coral);
+  font-size: 10px;
+  font-style: italic;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.contact-form__submit-button {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  transition: all 0.3s;
+}
+.contact-form__submit-button:hover {
+  transform: scale(1.03);
+}
+.contact-form__submit-button:active {
+  transform: scale(.98);
+}
+
 
 
 /* RETINA */
