@@ -957,4 +957,7 @@ only screen and (min-resolution: 2dppx) {
   .dir {
     background-image: url("../img/articles-bg-img2@2x.png"), url("../img/aarticles-bg-img1@2x.png");
   }
+  .clients {
+    background-image: url("../img/Clients-bg-img@2x.png");
+  }
 }
