@@ -747,6 +747,49 @@ img {
 }
 
 
+/* CLIENTS */
+.clients {
+  background-color: var(--Sacramento-State-Green);
+  background-image: url("../img/Clients-bg-img.png");
+  background-repeat: no-repeat;
+  background-position: calc(50% - 680px) 0;
+}
+
+.clients-container {
+  padding: 140px 0;
+}
+
+.clients-header {
+  width: 920px;
+  margin: 0 auto 64px;
+  text-align: center;
+  color: var(--White);
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 48px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.client {
+}
+
+.client-link {
+  text-decoration: none;
+}
+
+.client-icon {
+  color: var(--White);
+}
+
+
+
+
 /* RETINA */
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min--moz-device-pixel-ratio: 2),
